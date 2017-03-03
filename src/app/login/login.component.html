@@ -1,3 +1,22 @@
-<p>
-  login works!
+<p class="pTag">
+  <span>login works!</span>
 </p>
+
+<div> Input Field</div>
+<md-input-container>
+  <input mdInput placeholder="Favorite food" value="Sushi">
+</md-input-container>
+
+
+<md-sidenav-container class="example-container">
+  <md-sidenav #sidenav class="example-sidenav">
+    Jolly good!
+  </md-sidenav>
+
+  <div class="example-sidenav-content">
+    <button md-button (click)="sidenav.open()">
+      Open sidenav
+    </button>
+  </div>
+
+</md-sidenav-container>
